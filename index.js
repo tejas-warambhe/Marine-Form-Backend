@@ -4,6 +4,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
 const upload = require('./routes/upload');
+const admin = require('./routes/admin');
 const dbConnect = require('./db');
 
 //start db connection
@@ -15,6 +16,7 @@ app.use(express.json());
 
 //Routes
 app.use('/upload', upload);
+app.use('/admin', admin)
 
 //listening on Port
 app.listen(PORT, () => {

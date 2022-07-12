@@ -610,6 +610,426 @@ const FormSchema = new Schema({
     gmdss_issuing_authority: {
         type: String
     },
+    gmdss_endorsement_cerificate_no: {
+        type: Number
+    },
+    gmdss_endorsement_date_of_issue: {
+        type: String
+    },
+    gmdss_endorsement_date_of_expiry: {
+        type: String
+    },
+    gmdss_endorsement_place_of_issue: {
+        type: String
+    },
+    gmdss_endorsement_issuing_authority: {
+        type: String
+    },
+    refresher_cerificate_no: {
+        type: Number
+    },
+    refresher_date_of_issue: {
+        type: String
+    },
+    refresher_date_of_expiry: {
+        type: String
+    },
+    refresher_place_of_issue: {
+        type: String
+    },
+    refresher_issuing_authority: {
+        type: String
+    },
+    ranso_cerificate_no: {
+        type: Number
+    },
+    ranso_date_of_issue: {
+        type: String
+    },
+    ranso_date_of_expiry: {
+        type: String
+    },
+    ranso_place_of_issue: {
+        type: String
+    },
+    ranso_issuing_authority: {
+        type: String
+    },
+    sms_cerificate_no: {
+        type: Number
+    },
+    sms_date_of_issue: {
+        type: String
+    },
+    sms_date_of_expiry: {
+        type: String
+    },
+    sms_place_of_issue: {
+        type: String
+    },
+    sms_issuing_authority: {
+        type: String
+    },
+    indos_cerificate_no: {
+        type: Number
+    },
+    indos_date_of_issue: {
+        type: String
+    },
+    indos_date_of_expiry: {
+        type: String
+    },
+    indos_place_of_issue: {
+        type: String
+    },
+    indos_issuing_authority: {
+        type: String
+    },
+    simulator_cerificate_no: {
+        type: Number
+    },
+    simulator_date_of_issue: {
+        type: String
+    },
+    simulator_date_of_expiry: {
+        type: String
+    },
+    simulator_place_of_issue: {
+        type: String
+    },
+    simulator_issuing_authority: {
+        type: String
+    },
+    engine_room_cerificate_no: {
+        type: Number
+    },
+    engine_room_date_of_issue: {
+        type: String
+    },
+    engine_room_date_of_expiry: {
+        type: String
+    },
+    engine_room_place_of_issue: {
+        type: String
+    },
+    engine_room_issuing_authority: {
+        type: String
+    },
+    btm_cerificate_no: {
+        type: Number
+    },
+    btm_date_of_issue: {
+        type: String
+    },
+    btm_date_of_expiry: {
+        type: String
+    },
+    btm_place_of_issue: {
+        type: String
+    },
+    btm_issuing_authority: {
+        type: String
+    },
+    marpol_cerificate_no: {
+        type: Number
+    },
+    marpol_date_of_issue: {
+        type: String
+    },
+    marpol_date_of_expiry: {
+        type: String
+    },
+    marpol_place_of_issue: {
+        type: String
+    },
+    marpol_issuing_authority: {
+        type: String
+    },
+    ecdis_generic_cerificate_no: {
+        type: Number
+    },
+    ecdis_generic_date_of_issue: {
+        type: String
+    },
+    ecdis_generic_date_of_expiry: {
+        type: String
+    },
+    ecdis_generic_place_of_issue: {
+        type: String
+    },
+    ecdis_generic_issuing_authority: {
+        type: String
+    },
+    ecdis_specific_cerificate_no: {
+        type: Number
+    },
+    ecdis_specific_date_of_issue: {
+        type: String
+    },
+    ecdis_specific_date_of_expiry: {
+        type: String
+    },
+    ecdis_specific_place_of_issue: {
+        type: String
+    },
+    ecdis_specific_issuing_authority: {
+        type: String
+    },
+    raai_cerificate_no: {
+        type: Number
+    },
+    raai_date_of_issue: {
+        type: String
+    },
+    raai_date_of_expiry: {
+        type: String
+    },
+    raai_place_of_issue: {
+        type: String
+    },
+    raai_issuing_authority: {
+        type: String
+    },
+    brm_cerificate_no: {
+        type: Number
+    },
+    brm_date_of_issue: {
+        type: String
+    },
+    brm_date_of_expiry: {
+        type: String
+    },
+    brm_place_of_issue: {
+        type: String
+    },
+    brm_issuing_authority: {
+        type: String
+    },
+    bwm_cerificate_no: {
+        type: Number
+    },
+    bwm_date_of_issue: {
+        type: String
+    },
+    bwm_date_of_expiry: {
+        type: String
+    },
+    bwm_place_of_issue: {
+        type: String
+    },
+    bwm_issuing_authority: {
+        type: String
+    },
+    lvh_cerificate_no: {
+        type: Number
+    },
+    lvh_date_of_issue: {
+        type: String
+    },
+    lvh_date_of_expiry: {
+        type: String
+    },
+    lvh_place_of_issue: {
+        type: String
+    },
+    lvh_issuing_authority: {
+        type: String
+    },
+    sim_course_cerificate_no: {
+        type: Number
+    },
+    sim_course_date_of_issue: {
+        type: String
+    },
+    sim_course_date_of_expiry: {
+        type: String
+    },
+    sim_course_place_of_issue: {
+        type: String
+    },
+    sim_course_issuing_authority: {
+        type: String
+    },
+    tanker_cerificate_no: {
+        type: Number
+    },
+    tanker_date_of_issue: {
+        type: String
+    },
+    tanker_date_of_expiry: {
+        type: String
+    },
+    tanker_place_of_issue: {
+        type: String
+    },
+    tanker_issuing_authority: {
+        type: String
+    },
+    tanker_cerificate_no: {
+        type: Number
+    },
+    tanker_date_of_issue: {
+        type: String
+    },
+    tanker_date_of_expiry: {
+        type: String
+    },
+    tanker_place_of_issue: {
+        type: String
+    },
+    tanker_issuing_authority: {
+        type: String
+    },
+    tasco_cerificate_no: {
+        type: Number
+    },
+    tasco_date_of_issue: {
+        type: String
+    },
+    tasco_date_of_expiry: {
+        type: String
+    },
+    tasco_place_of_issue: {
+        type: String
+    },
+    tasco_issuing_authority: {
+        type: String
+    },
+    chem_cerificate_no: {
+        type: Number
+    },
+    chem_date_of_issue: {
+        type: String
+    },
+    chem_date_of_expiry: {
+        type: String
+    },
+    chem_place_of_issue: {
+        type: String
+    },
+    chem_issuing_authority: {
+        type: String
+    },
+    gasco_cerificate_no: {
+        type: Number
+    },
+    gasco_date_of_issue: {
+        type: String
+    },
+    gasco_date_of_expiry: {
+        type: String
+    },
+    gasco_place_of_issue: {
+        type: String
+    },
+    gasco_issuing_authority: {
+        type: String
+    },
+    dce_petrol_cerificate_no: {
+        type: Number
+    },
+    dce_petrol_date_of_issue: {
+        type: String
+    },
+    dce_petrol_date_of_expiry: {
+        type: String
+    },
+    dce_petrol_place_of_issue: {
+        type: String
+    },
+    dce_petrol_issuing_authority: {
+        type: String
+    },
+    dce_chem_cerificate_no: {
+        type: Number
+    },
+    dce_chem_date_of_issue: {
+        type: String
+    },
+    dce_chem_date_of_expiry: {
+        type: String
+    },
+    dce_chem_place_of_issue: {
+        type: String
+    },
+    dce_chem_issuing_authority: {
+        type: String
+    },
+    dce_gas_cerificate_no: {
+        type: Number
+    },
+    dce_gas_date_of_issue: {
+        type: String
+    },
+    dce_gas_date_of_expiry: {
+        type: String
+    },
+    dce_gas_place_of_issue: {
+        type: String
+    },
+    dce_gas_issuing_authority: {
+        type: String
+    },
+    lcb_cerificate_no: {
+        type: Number
+    },
+    lcb_date_of_issue: {
+        type: String
+    },
+    lcb_date_of_expiry: {
+        type: String
+    },
+    lcb_place_of_issue: {
+        type: String
+    },
+    lcb_issuing_authority: {
+        type: String
+    },
+    other_course_cerificate_no: {
+        type: Number
+    },
+    other_course_date_of_issue: {
+        type: String
+    },
+    other_course_date_of_expiry: {
+        type: String
+    },
+    other_course_place_of_issue: {
+        type: String
+    },
+    other_course_issuing_authority: {
+        type: String
+    },
+    martime_cerificate_no: {
+        type: Number
+    },
+    martime_date_of_issue: {
+        type: String
+    },
+    martime_date_of_expiry: {
+        type: String
+    },
+    martime_place_of_issue: {
+        type: String
+    },
+    martime_issuing_authority: {
+        type: String
+    },
+    shm_cerificate_no: {
+        type: Number
+    },
+    shm_date_of_issue: {
+        type: String
+    },
+    shm_date_of_expiry: {
+        type: String
+    },
+    shm_place_of_issue: {
+        type: String
+    },
+    shm_issuing_authority: {
+        type: String
+    },
     //8)References
     reference_name_1: {
         type: String

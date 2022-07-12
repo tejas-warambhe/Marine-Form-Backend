@@ -13,6 +13,7 @@ dbConnect();
 //middlewares
 app.use(cors());
 app.use(express.json());
+app.use('/public/images', express.static(__dirname + '/public/images/'));
 
 //Routes
 app.use('/upload', upload);

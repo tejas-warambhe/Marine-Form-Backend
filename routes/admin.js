@@ -12,6 +12,17 @@ router.get('/forms', async(req, res) => {
         console.log(err.message);
     }
 })
+
+router.get('/form/:id', async(req, res) => {
+    const { id } = req.params;
+    try {
+        const form = await Form.findById({ _id: id });
+        res.status(200).json(form);
+    } catch (err) {
+        console.log(err.message);
+    }
+})
+
 router.delete('/form/:id', async(req, res) => {
     const { id } = req.params;
     console.log(id);
@@ -37,9 +48,7 @@ router.put('/form/:id', async(req, res) => {
     console.log(id);
     try {
         const filter = { _id: id };
-        let updatedForm = await Form.findOneAndUpdate(filter, req.body, {
-            new: true
-        });
+        let updatedForm = await Form.findOneAndUpdate(filter, req.body);
         res.status(201).json({
             success: true,
             updatedForm: updatedForm

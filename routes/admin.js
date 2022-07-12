@@ -23,7 +23,7 @@ router.get('/form/:id', async(req, res) => {
     }
 })
 
-router.delete('/form/:id', async(req, res) => {
+router.delete('/form/delete/:id', async(req, res) => {
     const { id } = req.params;
     console.log(id);
     try {
@@ -43,7 +43,7 @@ router.delete('/form/:id', async(req, res) => {
     }
 });
 
-router.put('/form/:id', async(req, res) => {
+router.put('/form/update/:id', async(req, res) => {
     const { id } = req.params;
     console.log(id);
     try {

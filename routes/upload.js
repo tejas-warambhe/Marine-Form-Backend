@@ -20,7 +20,8 @@ var storage = multer.diskStorage({
 
     destination: "./public/images",
     filename: function(req, file, cb) {
-        cb(null, Date.now() + '-' + file.originalname)
+        let url = file.originalname.replace(/\ /g, "");
+        cb(null, Date.now() + '-' + url);
     }
 })
 
@@ -45,7 +46,7 @@ router.post('/file', function(req, res) {
 });
 
 router.post('/', async(req, res) => {
-    console.log(req.body);
+    // console.log(req.body);
     try {
         let form = await Form.create(req.body);
         console.log(form);

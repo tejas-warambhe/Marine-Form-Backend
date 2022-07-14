@@ -1167,7 +1167,22 @@ const FormSchema = new Schema({
     declaration_date: {
         type: String
     },
-    //upload passport pic and signature
+    formal_photo: {
+
+        type: String
+    },
+    signature_photo: {
+
+        type: String
+    },
+    declaration_date: {
+        type: String
+    },
+    date: {
+        type: Date,
+        default: Date.now
+    }
+
 
 
 

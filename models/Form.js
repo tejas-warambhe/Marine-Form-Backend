@@ -70,7 +70,7 @@ const FormSchema = new Schema({
     },
     pin_code_permanent: {
 
-        type: Number
+        type: String
     },
     city_present: {
 
@@ -78,11 +78,11 @@ const FormSchema = new Schema({
     },
     pin_code_present: {
 
-        type: Number
+        type: String
     },
     telephone_permanent: {
 
-        type: Number
+        type: String
     },
     email_permanent: {
 
@@ -90,7 +90,7 @@ const FormSchema = new Schema({
     },
     telephone_present: {
 
-        type: Number
+        type: String
     },
     email_present: {
 
@@ -124,7 +124,7 @@ const FormSchema = new Schema({
     //3)Passport Details
     passport_no: {
 
-        type: Number
+        type: String
     },
     passport_place_of_issue: {
 
@@ -140,7 +140,7 @@ const FormSchema = new Schema({
     },
     us_visa_no: {
 
-        type: Number
+        type: String
     },
     us_visa_place_of_issue: {
 
@@ -156,7 +156,7 @@ const FormSchema = new Schema({
     },
     yellow_fever_no: {
 
-        type: Number
+        type: String
     },
     yellow_fever_place_of_issue: {
 
@@ -173,7 +173,7 @@ const FormSchema = new Schema({
     //4)Continuous Discharge Certificate / Seaman Book
     indian_certificate_no: {
 
-        type: Number
+        type: String
     },
     indian_place_of_issue: {
 
@@ -189,7 +189,7 @@ const FormSchema = new Schema({
     },
     panama_certificate_no: {
 
-        type: Number
+        type: String
     },
     panama_date_of_issue: {
 
@@ -201,7 +201,7 @@ const FormSchema = new Schema({
     },
     others_certificate_no: {
 
-        type: Number
+        type: String
     },
     others_place_of_issue: {
 
@@ -226,11 +226,11 @@ const FormSchema = new Schema({
     },
     elementary_from: {
 
-        type: Number
+        type: String
     },
     elementary_to: {
 
-        type: Number
+        type: String
     },
     secondary_name_of_institution: {
 
@@ -242,11 +242,11 @@ const FormSchema = new Schema({
     },
     secondary_from: {
 
-        type: Number
+        type: String
     },
     secondary_to: {
 
-        type: Number
+        type: String
     },
     university_name_of_institution: {
 
@@ -258,11 +258,11 @@ const FormSchema = new Schema({
     },
     university_from: {
 
-        type: Number
+        type: String
     },
     university_to: {
 
-        type: Number
+        type: String
     },
     professional_name_of_institution: {
 
@@ -274,11 +274,11 @@ const FormSchema = new Schema({
     },
     professional_from: {
 
-        type: Number
+        type: String
     },
     professional_to: {
 
-        type: Number
+        type: String
     },
     additional_skills: {
 
@@ -291,7 +291,7 @@ const FormSchema = new Schema({
     },
     indian_number: {
 
-        type: Number
+        type: String
     },
     indian_liscence_date_of_issue: {
 
@@ -315,7 +315,7 @@ const FormSchema = new Schema({
     },
     uk_number: {
 
-        type: Number
+        type: String
     },
     uk_liscence_date_of_issue: {
 
@@ -339,7 +339,7 @@ const FormSchema = new Schema({
     },
     aus_number: {
 
-        type: Number
+        type: String
     },
     aus_liscence_date_of_issue: {
 
@@ -363,7 +363,7 @@ const FormSchema = new Schema({
     },
     singapore_number: {
 
-        type: Number
+        type: String
     },
     singapore_liscence_date_of_issue: {
 
@@ -387,7 +387,7 @@ const FormSchema = new Schema({
     },
     panama_number: {
 
-        type: Number
+        type: String
     },
     panama_liscence_date_of_issue: {
 
@@ -411,7 +411,7 @@ const FormSchema = new Schema({
     },
     others_number: {
 
-        type: Number
+        type: String
     },
     others_liscence_date_of_issue: {
 
@@ -431,7 +431,7 @@ const FormSchema = new Schema({
     },
     //7)stcw and other certificates
     aff_cerificate_no: {
-        type: Number
+        type: String
     },
     aff_date_of_issue: {
         type: String
@@ -446,7 +446,7 @@ const FormSchema = new Schema({
         type: String
     },
     fpff_cerificate_no: {
-        type: Number
+        type: String
     },
     fpff_date_of_issue: {
         type: String
@@ -461,7 +461,7 @@ const FormSchema = new Schema({
         type: String
     },
     efa_cerificate_no: {
-        type: Number
+        type: String
     },
     efa_date_of_issue: {
         type: String
@@ -476,7 +476,7 @@ const FormSchema = new Schema({
         type: String
     },
     mfa_cerificate_no: {
-        type: Number
+        type: String
     },
     mfa_date_of_issue: {
         type: String
@@ -491,7 +491,7 @@ const FormSchema = new Schema({
         type: String
     },
     pst_cerificate_no: {
-        type: Number
+        type: String
     },
     pst_date_of_issue: {
         type: String
@@ -506,7 +506,7 @@ const FormSchema = new Schema({
         type: String
     },
     pscrb_cerificate_no: {
-        type: Number
+        type: String
     },
     pscrb_date_of_issue: {
         type: String
@@ -521,7 +521,7 @@ const FormSchema = new Schema({
         type: String
     },
     pssr_cerificate_no: {
-        type: Number
+        type: String
     },
     pssr_date_of_issue: {
         type: String
@@ -536,7 +536,7 @@ const FormSchema = new Schema({
         type: String
     },
     sso_cerificate_no: {
-        type: Number
+        type: String
     },
     sso_date_of_issue: {
         type: String
@@ -551,7 +551,7 @@ const FormSchema = new Schema({
         type: String
     },
     stsdsd_cerificate_no: {
-        type: Number
+        type: String
     },
     stsdsd_date_of_issue: {
         type: String
@@ -566,7 +566,7 @@ const FormSchema = new Schema({
         type: String
     },
     roc_cerificate_no: {
-        type: Number
+        type: String
     },
     roc_date_of_issue: {
         type: String
@@ -581,7 +581,7 @@ const FormSchema = new Schema({
         type: String
     },
     arpa_cerificate_no: {
-        type: Number
+        type: String
     },
     arpa_date_of_issue: {
         type: String
@@ -596,7 +596,7 @@ const FormSchema = new Schema({
         type: String
     },
     gmdss_cerificate_no: {
-        type: Number
+        type: String
     },
     gmdss_date_of_issue: {
         type: String
@@ -611,7 +611,7 @@ const FormSchema = new Schema({
         type: String
     },
     gmdss_endorsement_cerificate_no: {
-        type: Number
+        type: String
     },
     gmdss_endorsement_date_of_issue: {
         type: String
@@ -626,7 +626,7 @@ const FormSchema = new Schema({
         type: String
     },
     refresher_cerificate_no: {
-        type: Number
+        type: String
     },
     refresher_date_of_issue: {
         type: String
@@ -641,7 +641,7 @@ const FormSchema = new Schema({
         type: String
     },
     ranso_cerificate_no: {
-        type: Number
+        type: String
     },
     ranso_date_of_issue: {
         type: String
@@ -656,7 +656,7 @@ const FormSchema = new Schema({
         type: String
     },
     sms_cerificate_no: {
-        type: Number
+        type: String
     },
     sms_date_of_issue: {
         type: String
@@ -671,7 +671,7 @@ const FormSchema = new Schema({
         type: String
     },
     indos_cerificate_no: {
-        type: Number
+        type: String
     },
     indos_date_of_issue: {
         type: String
@@ -686,7 +686,7 @@ const FormSchema = new Schema({
         type: String
     },
     simulator_cerificate_no: {
-        type: Number
+        type: String
     },
     simulator_date_of_issue: {
         type: String
@@ -701,7 +701,7 @@ const FormSchema = new Schema({
         type: String
     },
     engine_room_cerificate_no: {
-        type: Number
+        type: String
     },
     engine_room_date_of_issue: {
         type: String
@@ -716,7 +716,7 @@ const FormSchema = new Schema({
         type: String
     },
     btm_cerificate_no: {
-        type: Number
+        type: String
     },
     btm_date_of_issue: {
         type: String
@@ -731,7 +731,7 @@ const FormSchema = new Schema({
         type: String
     },
     marpol_cerificate_no: {
-        type: Number
+        type: String
     },
     marpol_date_of_issue: {
         type: String
@@ -746,7 +746,7 @@ const FormSchema = new Schema({
         type: String
     },
     ecdis_generic_cerificate_no: {
-        type: Number
+        type: String
     },
     ecdis_generic_date_of_issue: {
         type: String
@@ -761,7 +761,7 @@ const FormSchema = new Schema({
         type: String
     },
     ecdis_specific_cerificate_no: {
-        type: Number
+        type: String
     },
     ecdis_specific_date_of_issue: {
         type: String
@@ -776,7 +776,7 @@ const FormSchema = new Schema({
         type: String
     },
     raai_cerificate_no: {
-        type: Number
+        type: String
     },
     raai_date_of_issue: {
         type: String
@@ -791,7 +791,7 @@ const FormSchema = new Schema({
         type: String
     },
     brm_cerificate_no: {
-        type: Number
+        type: String
     },
     brm_date_of_issue: {
         type: String
@@ -806,7 +806,7 @@ const FormSchema = new Schema({
         type: String
     },
     bwm_cerificate_no: {
-        type: Number
+        type: String
     },
     bwm_date_of_issue: {
         type: String
@@ -821,7 +821,7 @@ const FormSchema = new Schema({
         type: String
     },
     lvh_cerificate_no: {
-        type: Number
+        type: String
     },
     lvh_date_of_issue: {
         type: String
@@ -836,7 +836,7 @@ const FormSchema = new Schema({
         type: String
     },
     sim_course_cerificate_no: {
-        type: Number
+        type: String
     },
     sim_course_date_of_issue: {
         type: String
@@ -851,7 +851,7 @@ const FormSchema = new Schema({
         type: String
     },
     tanker_cerificate_no: {
-        type: Number
+        type: String
     },
     tanker_date_of_issue: {
         type: String
@@ -866,7 +866,7 @@ const FormSchema = new Schema({
         type: String
     },
     tanker_cerificate_no: {
-        type: Number
+        type: String
     },
     tanker_date_of_issue: {
         type: String
@@ -881,7 +881,7 @@ const FormSchema = new Schema({
         type: String
     },
     tasco_cerificate_no: {
-        type: Number
+        type: String
     },
     tasco_date_of_issue: {
         type: String
@@ -896,7 +896,7 @@ const FormSchema = new Schema({
         type: String
     },
     chem_cerificate_no: {
-        type: Number
+        type: String
     },
     chem_date_of_issue: {
         type: String
@@ -911,7 +911,7 @@ const FormSchema = new Schema({
         type: String
     },
     gasco_cerificate_no: {
-        type: Number
+        type: String
     },
     gasco_date_of_issue: {
         type: String
@@ -926,7 +926,7 @@ const FormSchema = new Schema({
         type: String
     },
     dce_petrol_cerificate_no: {
-        type: Number
+        type: String
     },
     dce_petrol_date_of_issue: {
         type: String
@@ -941,7 +941,7 @@ const FormSchema = new Schema({
         type: String
     },
     dce_chem_cerificate_no: {
-        type: Number
+        type: String
     },
     dce_chem_date_of_issue: {
         type: String
@@ -956,7 +956,7 @@ const FormSchema = new Schema({
         type: String
     },
     dce_gas_cerificate_no: {
-        type: Number
+        type: String
     },
     dce_gas_date_of_issue: {
         type: String
@@ -971,7 +971,7 @@ const FormSchema = new Schema({
         type: String
     },
     lcb_cerificate_no: {
-        type: Number
+        type: String
     },
     lcb_date_of_issue: {
         type: String
@@ -986,7 +986,7 @@ const FormSchema = new Schema({
         type: String
     },
     other_course_cerificate_no: {
-        type: Number
+        type: String
     },
     other_course_date_of_issue: {
         type: String
@@ -1001,7 +1001,7 @@ const FormSchema = new Schema({
         type: String
     },
     martime_cerificate_no: {
-        type: Number
+        type: String
     },
     martime_date_of_issue: {
         type: String
@@ -1016,7 +1016,7 @@ const FormSchema = new Schema({
         type: String
     },
     shm_cerificate_no: {
-        type: Number
+        type: String
     },
     shm_date_of_issue: {
         type: String
@@ -1038,7 +1038,7 @@ const FormSchema = new Schema({
         type: String
     },
     reference_telephone_1: {
-        type: Number
+        type: String
     },
     reference_name_2: {
         type: String
@@ -1047,7 +1047,7 @@ const FormSchema = new Schema({
         type: String
     },
     reference_telephone_2: {
-        type: Number
+        type: String
     },
     //9)How do you come to know about us
     company_presentation: {
@@ -1073,13 +1073,13 @@ const FormSchema = new Schema({
     },
     //10)Personal Details
     height: {
-        type: Number
+        type: String
     },
     weight: {
-        type: Number
+        type: String
     },
     BMI: {
-        type: Number
+        type: String
     },
     color_of_hair: {
         type: String
@@ -1109,7 +1109,7 @@ const FormSchema = new Schema({
         type: String
     },
     last_drawn_wages: {
-        type: Number
+        type: String
     },
     //11) Additional Information
     applied_before: {
@@ -1147,10 +1147,10 @@ const FormSchema = new Schema({
         type: String
     },
     may_approach_employer: {
-        type: Number
+        type: String
     },
     employer_contact_details: {
-        type: Number
+        type: String
     },
     notice_to_attend_interview: {
         type: String

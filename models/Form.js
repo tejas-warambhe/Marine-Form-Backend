@@ -1178,6 +1178,22 @@ const FormSchema = new Schema({
     declaration_date: {
         type: String
     },
+    twitter: {
+
+        type: String
+    },
+    linkedin: {
+
+        type: String
+    },
+    instagram: {
+
+        type: String
+    },
+    facebook: {
+
+        type: String
+    },
     date: {
         type: Date,
         default: Date.now

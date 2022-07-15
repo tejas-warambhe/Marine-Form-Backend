@@ -307,7 +307,7 @@ const FormSchema = new Schema({
     },
     indian_stcw: {
 
-        type: Boolean
+        type: String
     },
     uk_grade: {
 
@@ -331,7 +331,7 @@ const FormSchema = new Schema({
     },
     uk_stcw: {
 
-        type: Boolean
+        type: String
     },
     aus_grade: {
 
@@ -355,7 +355,7 @@ const FormSchema = new Schema({
     },
     aus_stcw: {
 
-        type: Boolean
+        type: String
     },
     singapore_grade: {
 
@@ -379,7 +379,7 @@ const FormSchema = new Schema({
     },
     singapore_stcw: {
 
-        type: Boolean
+        type: String
     },
     panama_grade: {
 
@@ -403,7 +403,7 @@ const FormSchema = new Schema({
     },
     panama_stcw: {
 
-        type: Boolean
+        type: String
     },
     others_grade: {
 
@@ -427,7 +427,7 @@ const FormSchema = new Schema({
     },
     others_stcw: {
 
-        type: Boolean
+        type: String
     },
     //7)stcw and other certificates
     aff_cerificate_no: {

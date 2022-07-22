@@ -191,6 +191,10 @@ const FormSchema = new Schema({
 
         type: String
     },
+    panama_place_of_issue: {
+
+        type: String
+    },
     panama_date_of_issue: {
 
         type: String

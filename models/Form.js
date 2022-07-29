@@ -105,6 +105,10 @@ const FormSchema = new Schema({
         type: String
     },
     //2) NEXT OF KINS/ DEPENDENTS
+    name_of_wife: {
+
+        type: String
+    },
     name_of_kin: {
 
         type: String
@@ -114,6 +118,10 @@ const FormSchema = new Schema({
         type: String
     },
     add_nkd: {
+
+        type: String
+    },
+    no_of_child: {
 
         type: String
     },
